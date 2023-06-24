@@ -21,5 +21,5 @@ class URLShoter(rumps.App):
 
 if __name__ == '__main__':
     # IconPath = resource_path + '/Amazon_icon.png'
-    IconPath = '/Users/rautie/work/Python/AmazonURLShorter/Amazon_icon.png'
-    URLShoter('Rumps Test', icon=IconPath, quit_button='終了').run()
+    IconPath = '../Amazon_icon.png'
+    URLShoter('Amazon URL Shorter', icon=IconPath, quit_button='終了').run()
