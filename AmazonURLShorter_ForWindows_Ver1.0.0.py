@@ -22,7 +22,7 @@ def shorten_amazon_url(event):
 class TaskbarIcon(wx.adv.TaskBarIcon):
     def __init__(self):
         super(TaskbarIcon, self).__init__()
-        self.icon = wx.Icon(resource_path("Amazon_icon.ico"), wx.BITMAP_TYPE_ICO)
+        self.icon = wx.Icon(resource_path("AmazonURLShorter_icon.ico"), wx.BITMAP_TYPE_ICO)
         self.SetIcon(self.icon, "Amazon URL Shorter Ver.1.0.0")
         self.Bind(wx.adv.EVT_TASKBAR_LEFT_DOWN, self.on_left_down)
 
